@@ -1,14 +1,2 @@
 esep #1
-t = int(input())
-for _ in range(t):
-    n = int(input())
-    a = list(map(int, input().split()))
-    a.sort()
-    mex = 0
-    for i in a:
-        num = 0
-        for j in a:
-            if j - i == num:
-                num += 1
-        mex = max(mex, num)
-    print(mex)
+
