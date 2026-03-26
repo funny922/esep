@@ -1,3 +1,13 @@
+n = int(input())
+ans = 0
+a = 1
+while a <= n - 1:
+    ans += (n - 1) // a
+    a += 1
+print(ans)
+
+#-----------------------------------------------
+
 N = int(input())
 M = N - 1
 ans = 0
